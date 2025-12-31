@@ -1,109 +1,209 @@
-# 📚 AI, Machine Learning, and Deep Learning Books Repository
+# 📚 AI / ML / DL / DS Books & Resources Hub
 
-Welcome to the **AI, Machine Learning, and Deep Learning Books Repository**! This curated collection provides essential resources for learners at all levels—students, professionals, and researchers. The goal is to help you build a solid foundation, gain hands-on skills, and explore advanced topics in AI, ML, and DL.
+> **A single, curated place for every Computer Science student and AI enthusiast**  
+> Covering **AI, Machine Learning, Deep Learning, Data Science, LLMs, RAG, Transformers, MLOps, and more**
 
----
-
-## 🔥 Recommended Learning Path
-
-To make the most out of this repository, follow this path:
-
-1. **AI Fundamentals**
-   - Start with general AI concepts and problem-solving techniques.
-2. **Machine Learning Basics**
-   - Learn supervised, unsupervised, and reinforcement learning.
-3. **Deep Learning**
-   - Dive into neural networks, CNNs, RNNs, and advanced architectures.
-4. **Specialized Topics**
-   - NLP, computer vision, probabilistic models, and reinforcement learning.
-5. **Hands-on Projects**
-   - Apply knowledge with Python, TensorFlow, Keras, or PyTorch.
+![Stars](https://img.shields.io/github/stars/bishwaghimire/ai-ml-books?style=social)
+![Forks](https://img.shields.io/github/forks/bishwaghimire/ai-ml-books?style=social)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 
 ---
 
-## 🤖 Artificial Intelligence (AI)
+## 🚀 About This Repository
 
-### Beginners
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Artificial Intelligence: A Modern Approach | Stuart Russell, Peter Norvig | Comprehensive introduction to AI concepts, agents, search, logic, and planning. | ⭐⭐⭐⭐⭐ |
-| AI Basics: A Beginner’s Guide | N.D. Lewis | Easy-to-follow beginner guide with practical AI applications. | ⭐⭐⭐ |
-| Artificial Intelligence for Humans | Jeff Heaton | Explains AI principles in a human-friendly way with examples. | ⭐⭐⭐ |
+This repository is a **carefully curated collection of trending and foundational resources** in:
 
-### Intermediate
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Principles of Artificial Intelligence | Nils J. Nilsson | Covers foundational algorithms and reasoning techniques. | ⭐⭐⭐⭐ |
-| AI: Foundations of Computational Agents | David L. Poole, Alan K. Mackworth | Focuses on agents, problem-solving, and knowledge representation. | ⭐⭐⭐ |
+- Artificial Intelligence (AI)
+- Machine Learning (ML)
+- Deep Learning (DL)
+- Data Science (DS)
+- Large Language Models (LLMs)
+- Transformers & Attention
+- Retrieval-Augmented Generation (RAG)
+- MLOps & Production AI
+- AI Research & Mathematics
 
-### Advanced
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Bayesian Reasoning and Machine Learning | David Barber | Probabilistic approaches and inference for AI applications. | ⭐⭐⭐ |
-| Advanced AI Techniques | Peter Jackson | In-depth coverage of advanced reasoning and learning methods. | ⭐⭐⭐ |
+📌 **Goal:**  
+To provide **everything a CS student needs**—books, courses, videos, and research—**in one place**.
 
 ---
 
-## 🤖 Machine Learning (ML)
+## 🧠 Who Is This For?
 
-### Beginners
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow | Aurélien Géron | Practical ML with Python, covering both theory and coding. | ⭐⭐⭐⭐⭐ |
-| Introduction to Machine Learning with Python | Andreas C. Müller, Sarah Guido | Beginner-friendly introduction using scikit-learn. | ⭐⭐⭐⭐ |
-| The Hundred-Page Machine Learning Book | Andriy Burkov | Concise overview of ML concepts and algorithms. | ⭐⭐⭐ |
-
-### Intermediate
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Pattern Recognition and Machine Learning | Christopher M. Bishop | Covers ML theory, probabilistic models, and algorithms. | ⭐⭐⭐⭐ |
-| Machine Learning Yearning | Andrew Ng | Practical guide to structuring ML projects effectively. | ⭐⭐⭐ |
-| Deep Learning for Computer Vision | Adrian Rosebrock | Focus on ML applications in image processing and CV tasks. | ⭐⭐⭐ |
-
-### Advanced
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Machine Learning: A Probabilistic Perspective | Kevin P. Murphy | Advanced probabilistic modeling for ML research. | ⭐⭐⭐ |
-| Reinforcement Learning: An Introduction | Richard S. Sutton, Andrew G. Barto | Complete guide to RL theory and algorithms. | ⭐⭐⭐ |
-| Probabilistic Graphical Models: Principles and Techniques | Daphne Koller, Nir Friedman | Covers Bayesian networks, graphical models, and inference techniques. | ⭐⭐⭐ |
+- 🎓 Computer Science Students
+- 🤖 AI / ML Engineers
+- 🔬 Researchers
+- 🧑‍💻 Software Engineers moving into AI
+- 📈 Data Scientists
+- 🚀 Self-learners
 
 ---
 
-## 🧠 Deep Learning (DL)
+## 📑 Table of Contents
 
-### Beginners
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Deep Learning with Python | François Chollet | Hands-on introduction to DL with Keras. | ⭐⭐⭐⭐⭐ |
-| Neural Networks and Deep Learning | Michael Nielsen | Free online book explaining neural networks from scratch. | ⭐⭐⭐⭐ |
-| Python Deep Learning | Ivan Vasilev, Daniel Slater, Gianmario Spacagna | Practical guide to deep learning projects with Python. | ⭐⭐⭐ |
-
-### Intermediate
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Deep Learning | Ian Goodfellow, Yoshua Bengio, Aaron Courville | Core reference for DL theory, architectures, and techniques. | ⭐⭐⭐⭐⭐ |
-| Hands-On Deep Learning Algorithms with Python | Sudharsan Ravichandiran | Covers CNNs, RNNs, and generative models with practical examples. | ⭐⭐⭐ |
-| Practical Deep Learning for Cloud, Mobile, and Edge | Anirudh Koul, Siddha Ganju, Meher Kasam | Focused on deploying DL models across platforms. | ⭐⭐⭐ |
-
-### Advanced
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Deep Reinforcement Learning Hands-On | Maxim Lapan | Implement RL algorithms with Python and PyTorch. | ⭐⭐⭐ |
-| Generative Deep Learning | David Foster | Advanced generative models including GANs and VAEs. | ⭐⭐⭐ |
-| Advanced Deep Learning with TensorFlow 2 and Keras | Rowel Atienza | Complex architectures, sequence modeling, and production-ready models. | ⭐⭐⭐ |
+- [Getting Started](#getting-started)
+- [Trending AI Topics](#trending-ai-topics)
+- [Books](#books)
+- [YouTube & Video Resources](#youtube--video-resources)
+- [Online Courses & University Material](#online-courses--university-material)
+- [Research Papers & Blogs](#research-papers--blogs)
+- [Tools & Frameworks](#tools--frameworks)
+- [Contribution Guide](#contribution-guide)
+- [License](#license)
 
 ---
 
-## 📚 Other AI/ML/DL Resources
+## 🏁 Getting Started
 
-| Book Title | Author(s) | Description | Rating |
-|------------|-----------|-------------|--------|
-| Data Science for Business | Foster Provost, Tom Fawcett | Bridges ML theory and business applications. | ⭐⭐⭐⭐ |
-| Machine Learning for Absolute Beginners | Oliver Theobald | Simplified explanations of ML concepts. | ⭐⭐⭐ |
-| Bayesian Methods for Hackers | Cameron Davidson-Pilon | Probabilistic programming using Python. | ⭐⭐⭐ |
-| Natural Language Processing with Python | Steven Bird, Ewan Klein, Edward Loper | Covers NLP concepts and hands-on Python projects. | ⭐⭐⭐ |
-| Deep Learning for Natural Language Processing | Palash Goyal, Sumit Pandey, Karan Jain | NLP-focused deep learning techniques. | ⭐⭐⭐ |
-| Reinforcement Learning Algorithms: Analysis and Implementation | Andrea Lonza | RL algorithm analysis and Python implementation. | ⭐⭐⭐ |
+If you’re new to AI/ML:
+
+1. Start with **Machine Learning basics**
+2. Move to **Deep Learning**
+3. Learn **Transformers & LLMs**
+4. Explore **RAG, MLOps, and Production AI**
+
+📌 Recommended order:
+> ML → DL → Transformers → LLMs → RAG → MLOps
 
 ---
 
+## 🔥 Trending AI Topics
+
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- Transformers & Attention Mechanisms
+- Multimodal AI
+- AI Agents & AutoGPT
+- Reinforcement Learning (RLHF)
+- MLOps & AI System Design
+- AI Safety & Alignment
+
+---
+
+## 📚 Books
+
+### 🔹 Artificial Intelligence
+- **Artificial Intelligence: A Modern Approach** – Stuart Russell & Peter Norvig  
+  🔗 https://www.amazon.com/dp/0134610997
+
+---
+
+### 🔹 Machine Learning
+- **Pattern Recognition and Machine Learning** – Christopher M. Bishop  
+  🔗 https://www.amazon.com/dp/0387310738
+- **Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow** – Aurélien Géron  
+  🔗 https://www.amazon.com/dp/1098125975
+
+---
+
+### 🔹 Deep Learning
+- **Deep Learning** – Ian Goodfellow, Yoshua Bengio, Aaron Courville  
+  🔗 https://www.deeplearningbook.org/
+- **Neural Networks and Deep Learning** – Michael Nielsen  
+  🔗 http://neuralnetworksanddeeplearning.com/
+
+---
+
+### 🔹 Transformers & LLMs
+- **Natural Language Processing with Transformers** – Hugging Face  
+  🔗 https://www.amazon.com/dp/1098136799
+- **Designing Large Language Model Applications**  
+  🔗 https://www.amazon.com/
+
+---
+
+### 🔹 RAG & Advanced NLP
+- **Building LLM-Powered Applications**  
+  🔗 https://www.amazon.com/
+- **Information Retrieval** – Manning et al.  
+  🔗 https://www.amazon.com/
+
+---
+
+## 🎥 YouTube & Video Resources
+
+### 📺 YouTube Channels
+- **3Blue1Brown** – Math intuition  
+  🔗 https://www.youtube.com/@3blue1brown
+- **Andrej Karpathy** – Neural networks & LLMs  
+  🔗 https://www.youtube.com/@AndrejKarpathy
+- **StatQuest** – ML explained simply  
+  🔗 https://www.youtube.com/@statquest
+- **Two Minute Papers** – AI research summaries  
+  🔗 https://www.youtube.com/@TwoMinutePapers
+
+---
+
+## 🎓 Online Courses & University Material
+
+### 🏫 University Courses
+- **CS229 – Machine Learning (Stanford)**  
+  🔗 https://cs229.stanford.edu/
+- **CS231n – Convolutional Neural Networks**  
+  🔗 https://cs231n.stanford.edu/
+- **MIT 6.S191 – Deep Learning**  
+  🔗 https://introtodeeplearning.mit.edu/
+
+---
+
+### 💻 Online Platforms
+- **DeepLearning.AI**  
+  🔗 https://www.deeplearning.ai/
+- **Fast.ai**  
+  🔗 https://course.fast.ai/
+- **Coursera ML by Andrew Ng**  
+  🔗 https://www.coursera.org/learn/machine-learning
+
+---
+
+## 📄 Research Papers & Blogs
+
+- **Attention Is All You Need**  
+  🔗 https://arxiv.org/abs/1706.03762
+- **Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks**  
+  🔗 https://arxiv.org/abs/2005.11401
+- **The Illustrated Transformer**  
+  🔗 https://jalammar.github.io/illustrated-transformer/
+
+---
+
+## 🛠 Tools & Frameworks
+
+- **PyTorch** – https://pytorch.org/
+- **TensorFlow** – https://www.tensorflow.org/
+- **Hugging Face** – https://huggingface.co/
+- **LangChain** – https://www.langchain.com/
+- **LlamaIndex** – https://www.llamaindex.ai/
+
+---
+
+## 🤝 Contribution Guide
+
+Contributions are **highly welcome** 🚀
+
+You can contribute by:
+- Adding new **books**
+- Adding **YouTube playlists**
+- Adding **courses**
+- Fixing links
+- Improving organization
+
+### How to Contribute:
+1. Fork the repo
+2. Create a new branch
+3. Add your resource
+4. Submit a Pull Request
+
+⭐ **If you find this helpful, please star the repo!**
+
+---
+
+## 📜 License
+
+This repository is licensed under the **MIT License**.
+
+---
+
+## ❤️ Acknowledgements
+
+Thanks to the global AI community for sharing knowledge and learning together.
