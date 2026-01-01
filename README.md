@@ -1,7 +1,12 @@
-# 📚 AI / ML / DL / DS Books & Resources Hub
+<h1 align="center">📚 AI / ML / DL Books & Resources Hub</h1>
 
-> **A single, curated hub for every Computer Science student and AI enthusiast**  
-> Covering **AI, Machine Learning, Deep Learning, Data Science, LLMs, RAG, Transformers, MLOps, and more**
+<p align="center"><i>Your one-stop, structured roadmap to master AI — from foundations to cutting-edge research.</i></p>
+
+A carefully curated, all-in-one repository designed to help **Computer Science students, AI enthusiasts, and professionals** build strong foundations and progress confidently from **beginner to advanced levels**. This hub brings together the **best books, courses, playlists, and structured learning paths** across **Artificial Intelligence, Machine Learning, Deep Learning, Data Science, LLMs, RAG, Transformers, and MLOps**, all organized in a clear, practical, and industry-relevant manner.
+
+The resources are selected to balance **theory, intuition, and real-world application**, allowing learners to follow modules **sequentially or in parallel** based on their goals and experience.
+
+⭐ **Recommended resources** highlight high-impact content widely used in **academia, research, and industry**, ensuring you focus on what truly matters in modern AI.
 
 ![Stars](https://img.shields.io/github/stars/bishwaghimire/ai-ml-books?style=social)
 ![Forks](https://img.shields.io/github/forks/bishwaghimire/ai-ml-books?style=social)
@@ -14,33 +19,15 @@
 
 ---
 
-**Goal**  
-Provide **everything a CS student needs** to go from **Beginner → Advanced AI Engineer / Researcher**, all in **one place**.
 
----
-
-## Who Is This For?
-
-- 🎓 Computer Science Students
-- 🤖 AI / ML Engineers
-- 📊 Data Scientists
-- 🧑‍💻 Software Engineers transitioning to AI
-- 🔬 Researchers
-- 🚀 Self-learners
-
----
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Learning Paths](#learning-paths)
+- [Learning Paths](#learning-roadmaps)
 - [Trending AI Topics](#trending-ai-topics)
-- [Mathematics Foundations for AI / Machine Learning](#mathematics-foundations-for-ai--machine-learning)
-    - [1. Linear Algebra](#1-linear-algebra)
-    - [2. Calculus](#2-calculus)
-    - [3. Probability](#3-probability)
-    - [4. Statistics](#4-statistics)
-    - [5. Optimization](#5-optimization)
+- [Mathematics Foundations for AI / ML / DL](#mathematics-foundations-for-ai--ml--dl)
+- [Building Your Foundation](#building-your-foundation)
 - [Research Papers and Blogs](#research-papers-and-blogs)
 - [Tools and Frameworks](#tools-and-frameworks)
 - [Contribution Guide](#contribution-guide)
@@ -58,21 +45,16 @@ Strong fundamentals matter more than speed.
 
 ---
 
-## Learning Paths
+## Learning Roadmaps
 
+Each roadmap is designed as a **clear, step-by-step learning guide**, moving from fundamentals to advanced, research-level topics.
 
----
-## AI & ML Roadmap
-
-| Domain | Beginner | Intermediate | Advanced |
-|------|---------|--------------|----------|
-| **Artificial Intelligence (AI)** | Core AI concepts<br>Search, logic, agents<br>*Artificial Intelligence: A Modern Approach* | Probabilistic reasoning<br>Planning & decision making<br>Multi-agent systems | AI safety & alignment<br>Autonomous agents<br>Research-level AI systems |
-| **Machine Learning (ML)** | Linear & logistic regression<br>Supervised vs unsupervised learning<br>Andrew Ng ML course<br>*Hands-On Machine Learning* | Tree-based models<br>Feature engineering<br>Model evaluation & bias | Bayesian ML<br>Probabilistic graphical models<br>ICML / NeurIPS papers |
-| **Deep Learning (DL)** | Neural networks<br>Backpropagation<br>*Neural Networks and Deep Learning* | CNNs, RNNs, LSTMs<br>Optimization & regularization<br>Transfer learning | Self-supervised learning<br>Architecture design<br>Large-scale training |
-| **Transformers & LLMs** | Attention mechanism<br>Transformer architecture<br>*Attention Is All You Need*<br>Illustrated Transformer | BERT, GPT, T5<br>Fine-tuning LLMs<br>Prompt engineering | Training LLMs at scale<br>RLHF & alignment<br>Multimodal models |
-| **RAG (Retrieval-Augmented Generation)** | Embeddings<br>Vector databases<br>IR basics | RAG pipelines<br>Chunking & indexing<br>LangChain / LlamaIndex | Hybrid & agentic RAG<br>Evaluation & hallucination reduction<br>Enterprise RAG |
-| **MLOps & Production AI** | ML lifecycle<br>Model versioning<br>Simple deployment | CI/CD for ML<br>Monitoring & drift detection<br>Feature stores | Scalable ML systems<br>Distributed training<br>Production LLM infrastructure |
-
+- 📘 [AI Roadmap](roadmaps/ai-roadmap.md)
+- 📗 [Machine Learning Roadmap](roadmaps/ml-roadmap.md)
+- 📕 [Deep Learning Roadmap](roadmaps/deep-learning-roadmap.md)
+- 🤖 [Transformers & LLM Roadmap](roadmaps/llm-transformers-roadmap.md)
+- 🔍 [RAG Roadmap](roadmaps/rag-roadmap.md)
+- 🚀 [MLOps & Production AI Roadmap](roadmaps/mlops-roadmap.md)
 ---
 ## Trending AI Topics
 
@@ -92,73 +74,42 @@ Strong fundamentals matter more than speed.
 This repository contains a **curated list of foundational mathematics resources** required for **AI, Machine Learning, and Data Science**.  
 The resources are organized by **subject**, **difficulty level**, and **resource type** (Book, YouTube Playlist, University Course).    
 
----
 
-## 1. Linear Algebra
+##  Mathematics Foundations for AI / ML / DL 
 
-| S.N | Title | Type | Link | Level |
-|----|-------|------|------|-------|
-| 1 | Linear Algebra and Its Applications – Gilbert Strang | Book | https://www.amazon.com/ | Beginner |
-| 2 | Essence of Linear Algebra – 3Blue1Brown | YouTube Playlist | https://www.youtube.com/ | Beginner |
-| 3 | MIT OpenCourseWare – Linear Algebra (18.06) | University Course | https://ocw.mit.edu/ | Beginner |
-| 4 | Linear Algebra – Friedberg, Insel, Spence | Book | https://www.amazon.com/ | Intermediate |
-| 5 | NPTEL Linear Algebra | University Course | https://nptel.ac.in/ | Intermediate |
-| 6 | Advanced Linear Algebra – Roman | Book | https://www.amazon.com/ | Advanced |
+| S.N | Area | AI/ML-Relevant Focus | Best Resource | Type | Level |
+|----|------|----------------------|--------------|------|-------|
+| 1 | Linear Algebra | Vectors, matrices, geometric intuition | [Essence of Linear Algebra – 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) | YouTube Playlist | Beginner |
+| 2 | Linear Algebra | Matrix operations for ML models | [MIT OCW – Linear Algebra (18.06)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) | University Course | Beginner |
+| 3 | Linear Algebra | Eigenvalues, SVD, PCA | [Linear Algebra and Its Applications – Gilbert Strang](https://www.amazon.com/dp/0030105676) | Book | Intermediate |
+| 4 | Linear Algebra | Matrix factorization, embeddings | [Advanced Linear Algebra – Steven Roman](https://www.amazon.com/dp/0387728287) | Book | Advanced |
+| 5 | Calculus | Derivatives & gradients intuition | [Khan Academy – Calculus](https://www.khanacademy.org/math/calculus-1) | YouTube / Course | Beginner |
+| 6 | Calculus | Backpropagation, multivariable gradients | [MIT OCW – Multivariable Calculus](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) | University Course | Intermediate |
+| 7 | Calculus | Deep learning optimization theory | [Calculus – Michael Spivak](https://www.amazon.com/dp/0914098918) | Book | Advanced |
+| 8 | Probability | Random variables, distributions | [Harvard Stat 110 – Probability](https://projects.iq.harvard.edu/stat110/home) | University Course | Beginner |
+| 9 | Probability | Bayes theorem, uncertainty | [Khan Academy – Probability](https://www.khanacademy.org/math/statistics-probability/probability-library) | YouTube / Course | Beginner |
+|10 | Probability | Probabilistic ML foundations | [A First Course in Probability – Sheldon Ross](https://www.amazon.com/dp/0134753119) | Book | Intermediate |
+|11 | Statistics | Data understanding & evaluation | [Khan Academy – Statistics](https://www.khanacademy.org/math/statistics-probability) | YouTube / Course | Beginner |
+|12 | Statistics | Bias–variance, inference | [Statistical Inference – Casella & Berger](https://www.amazon.com/dp/0534243126) | Book | Intermediate |
+|13 | Statistics | Bayesian machine learning | [MIT OCW – Bayesian Statistics](https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/) | University Course | Advanced |
+|14 | Optimization | Gradient descent, convex optimization | [Convex Optimization – Boyd & Vandenberghe](https://www.amazon.com/dp/0521833787) | Book | Intermediate |
+|15 | Optimization | Training deep neural networks | [Numerical Optimization – Nocedal & Wright](https://www.amazon.com/dp/0387303030) | Book | Advanced |
 
----
+## Building Your Foundation
 
-## 2. Calculus
+This section covers the **core programming and tooling foundations** required for Machine Learning and Deep Learning.
 
-| S.N | Title | Type | Link | Level |
-|----|-------|------|------|-------|
-| 1 | Calculus – James Stewart | Book | https://www.amazon.com/ | Beginner |
-| 2 | Calculus Full Course – Khan Academy | YouTube Playlist | https://www.youtube.com/ | Beginner |
-| 3 | MIT OpenCourseWare – Single Variable Calculus | University Course | https://ocw.mit.edu/ | Beginner |
-| 4 | Calculus – Spivak | Book | https://www.amazon.com/ | Intermediate |
-| 5 | NPTEL Calculus Course | University Course | https://nptel.ac.in/ | Intermediate |
-| 6 | Multivariable Calculus – MIT OCW | University Course | https://ocw.mit.edu/ | Advanced |
+| S.N | Technology | Best Book | Best YouTube Playlist | Best University Course |
+|----|-----------|-----------|----------------------|------------------------|
+| 1 | Python | *Python Crash Course* – Eric Matthes | [Learn Python in 4 Hours](https://www.youtube.com/watch?v=rfscVS0vtbw) | [MITx: Introduction to Computer Science and Programming Using Python](https://www.edx.org/learn/computer-science/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-using-python) |
+| 2 | NumPy | *Python for Data Analysis* – Wes McKinney | NumPy Tutorial – Corey Schafer | NPTEL: Python for Data Science |
+| 3 | Pandas | *Python for Data Analysis* – Wes McKinney | Pandas Tutorial – Corey Schafer | Data Analysis with Python – IBM |
+| 4 | Matplotlib | *Python Data Science Handbook* – Jake VanderPlas | Matplotlib Tutorial – Sentdex | Visualization for Data Science – Harvard |
+| 5 | PyTorch / TensorFlow | *Deep Learning with PyTorch* / *Hands-On ML with TF* | PyTorch Official Tutorials / TensorFlow Official Tutorials | Stanford CS231n / TensorFlow in Practice (Coursera) |
 
----
-
-## 3. Probability
-
-| S.N | Title | Type | Link | Level |
-|----|-------|------|------|-------|
-| 1 | Introduction to Probability – Blitzstein | Book | https://www.amazon.com/ | Beginner |
-| 2 | Probability Theory – Khan Academy | YouTube Playlist | https://www.youtube.com/ | Beginner |
-| 3 | Harvard Stat 110 – Probability | University Course | https://projects.iq.harvard.edu/ | Beginner |
-| 4 | A First Course in Probability – Sheldon Ross | Book | https://www.amazon.com/ | Intermediate |
-| 5 | NPTEL Probability and Random Variables | University Course | https://nptel.ac.in/ | Intermediate |
-| 6 | Probability Theory – MIT OCW | University Course | https://ocw.mit.edu/ | Advanced |
+> _**❗ Note:** **PyTorch** is the preferred framework for **research & experimentation**, widely adopted in academia and cutting-edge ML research, whereas **TensorFlow** is the preferred choice for **production & deployment** due to its mature ecosystem and scalability._
 
 ---
-
-## 4. Statistics
-
-| S.N | Title | Type | Link | Level |
-|----|-------|------|------|-------|
-| 1 | Statistics for Beginners | Book | https://www.amazon.com/ | Beginner |
-| 2 | Statistics – Khan Academy | YouTube Playlist | https://www.youtube.com/ | Beginner |
-| 3 | Intro to Statistics – Stanford Online | University Course | https://online.stanford.edu/ | Beginner |
-| 4 | Statistical Inference – Casella & Berger | Book | https://www.amazon.com/ | Intermediate |
-| 5 | NPTEL Introduction to Statistical Inference | University Course | https://nptel.ac.in/ | Intermediate |
-| 6 | Bayesian Statistics – MIT OCW | University Course | https://ocw.mit.edu/ | Advanced |
-
----
-
-## 5. Optimization
-
-| S.N | Title | Type | Link | Level |
-|----|-------|------|------|-------|
-| 1 | Optimization for Beginners | Book | https://www.amazon.com/ | Beginner |
-| 2 | Convex Optimization Intuition | YouTube Playlist | https://www.youtube.com/ | Beginner |
-| 3 | NPTEL Optimization Methods | University Course | https://nptel.ac.in/ | Beginner |
-| 4 | Convex Optimization – Boyd & Vandenberghe | Book | https://www.amazon.com/ | Intermediate |
-| 5 | Stanford Convex Optimization | University Course | https://online.stanford.edu/ | Intermediate |
-| 6 | Numerical Optimization – Nocedal & Wright | Book | https://www.amazon.com/ | Advanced |
-
----
-
 
 ## Research Papers and Blogs
 
@@ -211,5 +162,6 @@ This repository is licensed under the **MIT License**.
 ## Acknowledgements
 
 Built with ❤️ for the global AI & Computer Science community.
+
 
 
