@@ -96,9 +96,9 @@ This section covers the **core programming and tooling foundations** required fo
 | S.N | Technology | Best Book | Best YouTube Playlist | Best University Course |
 |----|-----------|-----------|----------------------|------------------------|
 | 1 | Python | *Python Crash Course* – Eric Matthes | [Learn Python in 4 Hours](https://www.youtube.com/watch?v=rfscVS0vtbw) | [MITx: Introduction to Computer Science and Programming Using Python](https://www.edx.org/learn/computer-science/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-using-python) |
-| 2 | NumPy | *Python for Data Analysis* – Wes McKinney | NumPy Tutorial – Corey Schafer | NPTEL: Python for Data Science |
-| 3 | Pandas | *Python for Data Analysis* – Wes McKinney | Pandas Tutorial – Corey Schafer | Data Analysis with Python – IBM |
-| 4 | Matplotlib | *Python Data Science Handbook* – Jake VanderPlas | Matplotlib Tutorial – Sentdex | Visualization for Data Science – Harvard |
+| 2 | NumPy | [*Python for Data Analysis* – Wes McKinney](https://www.amazon.com/dp/1491957662/) | [NumPy Tutorial – freeCodeCamp.org](https://www.youtube.com/watch?v=QUT1VHiLmmI) | NPTEL: Python for Data Science |
+| 3 | Pandas | [*Python for Data Analysis* – Wes McKinney](https://www.amazon.com/dp/1491957662/) | [Pandas Tutorial – Corey Schafer](https://youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS&si=oejVnPLOscf8wCbj) | Data Analysis with Python – IBM |
+| 4 | Matplotlib | *Python Data Science Handbook* – Jake VanderPlas | [Matplotlib Tutorial – Sentdex](https://youtube.com/playlist?list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF&si=rrP9PjwV5L32iV2T) | Visualization for Data Science – Harvard |
 | 5 | PyTorch / TensorFlow | *Deep Learning with PyTorch* / *Hands-On ML with TF* | PyTorch Official Tutorials / TensorFlow Official Tutorials | Stanford CS231n / TensorFlow in Practice (Coursera) |
 
 > _**❗ Note:** **PyTorch** is the preferred framework for **research & experimentation**, widely adopted in academia and cutting-edge ML research, whereas **TensorFlow** is the preferred choice for **production & deployment** due to its mature ecosystem and scalability._
@@ -155,6 +155,7 @@ This repository is licensed under the **MIT License**.
 ## Acknowledgements
 
 Built with ❤️ for the global AI & Computer Science community.
+
 
 
 
