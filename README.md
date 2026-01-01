@@ -99,7 +99,7 @@ This section covers the **core programming and tooling foundations** required fo
 | 2 | NumPy | [*Python for Data Analysis* – Wes McKinney](https://www.amazon.com/dp/1491957662/) | [NumPy Tutorial – freeCodeCamp.org](https://www.youtube.com/watch?v=QUT1VHiLmmI) | NPTEL: Python for Data Science |
 | 3 | Pandas | [*Python for Data Analysis* – Wes McKinney](https://www.amazon.com/dp/1491957662/) | [Pandas Tutorial – Corey Schafer](https://youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS&si=oejVnPLOscf8wCbj) | Data Analysis with Python – IBM |
 | 4 | Matplotlib | *Python Data Science Handbook* – Jake VanderPlas | [Matplotlib Tutorial – Sentdex](https://youtube.com/playlist?list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF&si=rrP9PjwV5L32iV2T) | Visualization for Data Science – Harvard |
-| 5 | PyTorch / TensorFlow | *Deep Learning with PyTorch* / *Hands-On ML with TF* | PyTorch Official Tutorials / TensorFlow Official Tutorials | Stanford CS231n / TensorFlow in Practice (Coursera) |
+| 5 | PyTorch / TensorFlow | *Deep Learning with PyTorch* / *Hands-On ML with TF* | [PyTorch for Deep Learning & Machine Learning – freeCodeCamp.org](https://youtu.be/V_xro1bcAuA?si=p5qK5JTR-4FEUEEY) Or <br>[PyTorch Tutorials - Patrick Loeber](https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&si=8Pyx_HdlRF_Ih9y6) / TensorFlow Official Tutorials | Stanford CS231n / TensorFlow in Practice (Coursera) |
 
 > _**❗ Note:** **PyTorch** is the preferred framework for **research & experimentation**, widely adopted in academia and cutting-edge ML research, whereas **TensorFlow** is the preferred choice for **production & deployment** due to its mature ecosystem and scalability._
 
@@ -155,6 +155,7 @@ This repository is licensed under the **MIT License**.
 ## Acknowledgements
 
 Built with ❤️ for the global AI & Computer Science community.
+
 
 
 
