@@ -14,16 +14,6 @@
 
 ---
 
-## About This Repository
-
-This repository is a **carefully curated, continuously updated collection** of:
-
-- 📘 Books
-- 🎥 YouTube videos & playlists
-- 🎓 University & online courses
-- 📄 Research papers & blogs
-- 🛠 Tools & frameworks
-
 **Goal**  
 Provide **everything a CS student needs** to go from **Beginner → Advanced AI Engineer / Researcher**, all in **one place**.
 
@@ -45,9 +35,12 @@ Provide **everything a CS student needs** to go from **Beginner → Advanced AI 
 - [Getting Started](#getting-started)
 - [Learning Paths](#learning-paths)
 - [Trending AI Topics](#trending-ai-topics)
-- [Books](#books)
-- [YouTube and Video Resources](#youtube-and-video-resources)
-- [Online Courses and University Material](#online-courses-and-university-material)
+- [Mathematics Foundations for AI / Machine Learning](#mathematics-foundations-for-ai--machine-learning)
+    - [1. Linear Algebra](#1-linear-algebra)
+    - [2. Calculus](#2-calculus)
+    - [3. Probability](#3-probability)
+    - [4. Statistics](#4-statistics)
+    - [5. Optimization](#5-optimization)
 - [Research Papers and Blogs](#research-papers-and-blogs)
 - [Tools and Frameworks](#tools-and-frameworks)
 - [Contribution Guide](#contribution-guide)
@@ -94,62 +87,78 @@ Strong fundamentals matter more than speed.
 
 ---
 
-## Books
+# Mathematics Foundations for AI / Machine Learning
 
-### Artificial Intelligence
-- **Artificial Intelligence: A Modern Approach** – Russell & Norvig  
-  https://www.amazon.com/dp/0134610997
-
-### Machine Learning
-- **Pattern Recognition and Machine Learning** – Christopher M. Bishop  
-  https://www.amazon.com/dp/0387310738
-- **Hands-On Machine Learning** – Aurélien Géron  
-  https://www.amazon.com/dp/1098125975
-
-### Deep Learning
-- **Deep Learning** – Goodfellow, Bengio, Courville  
-  https://www.deeplearningbook.org/
-- **Neural Networks and Deep Learning** – Michael Nielsen  
-  http://neuralnetworksanddeeplearning.com/
-
-### Transformers and LLMs
-- **Natural Language Processing with Transformers** – Hugging Face  
-  https://www.amazon.com/dp/1098136799
+This repository contains a **curated list of foundational mathematics resources** required for **AI, Machine Learning, and Data Science**.  
+The resources are organized by **subject**, **difficulty level**, and **resource type** (Book, YouTube Playlist, University Course).    
 
 ---
 
-## YouTube and Video Resources
+## 1. Linear Algebra
 
-- 3Blue1Brown – Math intuition  
-  https://www.youtube.com/@3blue1brown
-- Andrej Karpathy – Neural networks & LLMs  
-  https://www.youtube.com/@AndrejKarpathy
-- StatQuest – ML explained simply  
-  https://www.youtube.com/@statquest
-- Two Minute Papers – AI research summaries  
-  https://www.youtube.com/@TwoMinutePapers
+| S.N | Title | Type | Link | Level |
+|----|-------|------|------|-------|
+| 1 | Linear Algebra and Its Applications – Gilbert Strang | Book | https://www.amazon.com/ | Beginner |
+| 2 | Essence of Linear Algebra – 3Blue1Brown | YouTube Playlist | https://www.youtube.com/ | Beginner |
+| 3 | MIT OpenCourseWare – Linear Algebra (18.06) | University Course | https://ocw.mit.edu/ | Beginner |
+| 4 | Linear Algebra – Friedberg, Insel, Spence | Book | https://www.amazon.com/ | Intermediate |
+| 5 | NPTEL Linear Algebra | University Course | https://nptel.ac.in/ | Intermediate |
+| 6 | Advanced Linear Algebra – Roman | Book | https://www.amazon.com/ | Advanced |
+
+---
+
+## 2. Calculus
+
+| S.N | Title | Type | Link | Level |
+|----|-------|------|------|-------|
+| 1 | Calculus – James Stewart | Book | https://www.amazon.com/ | Beginner |
+| 2 | Calculus Full Course – Khan Academy | YouTube Playlist | https://www.youtube.com/ | Beginner |
+| 3 | MIT OpenCourseWare – Single Variable Calculus | University Course | https://ocw.mit.edu/ | Beginner |
+| 4 | Calculus – Spivak | Book | https://www.amazon.com/ | Intermediate |
+| 5 | NPTEL Calculus Course | University Course | https://nptel.ac.in/ | Intermediate |
+| 6 | Multivariable Calculus – MIT OCW | University Course | https://ocw.mit.edu/ | Advanced |
 
 ---
 
-## Online Courses and University Material
+## 3. Probability
 
-### University Courses
-- CS229 – Machine Learning (Stanford)  
-  https://cs229.stanford.edu/
-- CS231n – CNNs (Stanford)  
-  https://cs231n.stanford.edu/
-- MIT 6.S191 – Deep Learning  
-  https://introtodeeplearning.mit.edu/
-
-### Online Platforms
-- DeepLearning.AI  
-  https://www.deeplearning.ai/
-- Fast.ai  
-  https://course.fast.ai/
-- Coursera – Machine Learning (Andrew Ng)  
-  https://www.coursera.org/learn/machine-learning
+| S.N | Title | Type | Link | Level |
+|----|-------|------|------|-------|
+| 1 | Introduction to Probability – Blitzstein | Book | https://www.amazon.com/ | Beginner |
+| 2 | Probability Theory – Khan Academy | YouTube Playlist | https://www.youtube.com/ | Beginner |
+| 3 | Harvard Stat 110 – Probability | University Course | https://projects.iq.harvard.edu/ | Beginner |
+| 4 | A First Course in Probability – Sheldon Ross | Book | https://www.amazon.com/ | Intermediate |
+| 5 | NPTEL Probability and Random Variables | University Course | https://nptel.ac.in/ | Intermediate |
+| 6 | Probability Theory – MIT OCW | University Course | https://ocw.mit.edu/ | Advanced |
 
 ---
+
+## 4. Statistics
+
+| S.N | Title | Type | Link | Level |
+|----|-------|------|------|-------|
+| 1 | Statistics for Beginners | Book | https://www.amazon.com/ | Beginner |
+| 2 | Statistics – Khan Academy | YouTube Playlist | https://www.youtube.com/ | Beginner |
+| 3 | Intro to Statistics – Stanford Online | University Course | https://online.stanford.edu/ | Beginner |
+| 4 | Statistical Inference – Casella & Berger | Book | https://www.amazon.com/ | Intermediate |
+| 5 | NPTEL Introduction to Statistical Inference | University Course | https://nptel.ac.in/ | Intermediate |
+| 6 | Bayesian Statistics – MIT OCW | University Course | https://ocw.mit.edu/ | Advanced |
+
+---
+
+## 5. Optimization
+
+| S.N | Title | Type | Link | Level |
+|----|-------|------|------|-------|
+| 1 | Optimization for Beginners | Book | https://www.amazon.com/ | Beginner |
+| 2 | Convex Optimization Intuition | YouTube Playlist | https://www.youtube.com/ | Beginner |
+| 3 | NPTEL Optimization Methods | University Course | https://nptel.ac.in/ | Beginner |
+| 4 | Convex Optimization – Boyd & Vandenberghe | Book | https://www.amazon.com/ | Intermediate |
+| 5 | Stanford Convex Optimization | University Course | https://online.stanford.edu/ | Intermediate |
+| 6 | Numerical Optimization – Nocedal & Wright | Book | https://www.amazon.com/ | Advanced |
+
+---
+
 
 ## Research Papers and Blogs
 
@@ -202,4 +211,5 @@ This repository is licensed under the **MIT License**.
 ## Acknowledgements
 
 Built with ❤️ for the global AI & Computer Science community.
+
 
